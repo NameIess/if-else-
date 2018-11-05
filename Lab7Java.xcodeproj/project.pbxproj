@@ -16,6 +16,7 @@
 		328C8C67218B597A00A4D91B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 328C8C66218B597A00A4D91B /* main.m */; };
 		328C8C71218B597A00A4D91B /* Lab7JavaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 328C8C70218B597A00A4D91B /* Lab7JavaTests.m */; };
 		328C8C7C218B597A00A4D91B /* Lab7JavaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 328C8C7B218B597A00A4D91B /* Lab7JavaUITests.m */; };
+		328C8C8B218B5A1E00A4D91B /* LetterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 328C8C8A218B5A1E00A4D91B /* LetterUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		328C8C77218B597A00A4D91B /* Lab7JavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab7JavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		328C8C7B218B597A00A4D91B /* Lab7JavaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab7JavaUITests.m; sourceTree = "<group>"; };
 		328C8C7D218B597A00A4D91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328C8C89218B59FE00A4D91B /* NSObject+isVowel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+isVowel.h"; sourceTree = "<group>"; };
+		328C8C8A218B5A1E00A4D91B /* LetterUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				328C8C65218B597A00A4D91B /* Info.plist */,
 				328C8C66218B597A00A4D91B /* main.m */,
 				328C8C5D218B597A00A4D91B /* Lab7Java.xcdatamodeld */,
+				328C8C89218B59FE00A4D91B /* NSObject+isVowel.h */,
+				328C8C8A218B5A1E00A4D91B /* LetterUtil.m */,
 			);
 			path = Lab7Java;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 				328C8C5F218B597A00A4D91B /* Lab7Java.xcdatamodeld in Sources */,
 				328C8C67218B597A00A4D91B /* main.m in Sources */,
 				328C8C56218B597A00A4D91B /* AppDelegate.m in Sources */,
+				328C8C8B218B5A1E00A4D91B /* LetterUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

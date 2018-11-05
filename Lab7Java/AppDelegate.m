@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NSObject+isVowel.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    LetterUtil* isVow = [[LetterUtil alloc] init];
+    
+    [isVow isVowel:@"c"] ? NSLog(@"letter is Vowel") : NSLog(@"letter is consonant");
+    
     return YES;
 }
 
